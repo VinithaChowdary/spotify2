@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+    position:sticky;
+    top:0;
+}
+.navbar {
+  height: 10vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo {
+  background-image: url("logo.png");
+  height: 7vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 7vh;
+}
+.navitems {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navitems li {
+  padding-left: 70px;
+}
+
+body {
+  background-color: antiquewhite;
+  
+}
+
+.spotify{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:white;
+  font-size:1.3rem;
+}
+
+.container{
+    background-image: url('bg.jpg');
+    min-height: 72vh;
+    width:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin:15px auto;
+  border-radius: 12px;
+  padding: 17px;
+}
+
+.bottom{
+    height:13vh;
+    background-color: black;
+    position:sticky;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column;
+}
+
+#progressbar{
+    width:80vw;
+    cursor: pointer;
+}
+
+.playbuttons i{
+    font-size:27px;
+    padding-left: 50px;
+    cursor:pointer;
+    
+}
+
+.playbuttons{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;;
+}
+
+.songitem{
+    display: flex;
+    height: 45px;
+   color: black;
+  width:40%;
+   align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    margin: 12px 0px;;
+    border-radius: 34px;
+}
+
+.songimg{
+    width: 43px;
+    border-radius: 34px;
+    padding:10px ;
+}
+
+.timestamp i{
+    margin-right: 20px;
+    margin-left: 7px;
+    cursor: pointer;
+
+}
+
+.songscontainer{
+    margin-top: 0px;;
+}
+
+.songinfo{
+    position: absolute;
+    left:10vw;
+    top:37px;
+    font-size: 1.1rem;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in ;
+}
+
